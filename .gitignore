@@ -1,0 +1,6 @@
+# Archivos temporales
+*.tmp
+*.log
+
+# Archivos generados por SQL Server
+*.bak
