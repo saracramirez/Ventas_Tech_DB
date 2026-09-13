@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Proyecto de base de datos de ventas desarrollado para TechStore como parte del Módulo 3 y Módulo 4.
+Proyecto de base de datos y análisis de ventas desarrollado para TechStore como parte de los módulos 3, 4 y 5.
 
 La base de datos `Ventas_Tech_DB` contiene información de categorías, clientes, productos y ventas, y permite realizar consultas SQL orientadas a métricas y análisis de negocio.
 
@@ -10,6 +10,7 @@ La base de datos `Ventas_Tech_DB` contiene información de categorías, clientes
 
 - `ventas_tech_db.sql` — creación de la base de datos, tablas, restricciones y carga de datos.
 - `m4_consultas_negocio.sql` — consultas SQL para obtener métricas y responder preguntas de negocio.
+- `m5_consultas_joins.sql` — consultas SQL utilizando JOIN y UNION ALL para enriquecer y consolidar la información.
 
 ## Tecnologías
 
@@ -17,14 +18,23 @@ La base de datos `Ventas_Tech_DB` contiene información de categorías, clientes
 - SQL
 - GitHub
 
-## Consultas de negocio
+## Módulo 4 — Consultas de negocio
 
-El Módulo 4 incluye consultas para:
+Se realizaron consultas para obtener:
 
 - Resumen ejecutivo mensual.
 - Ranking de productos.
 - Identificación de clientes recurrentes.
 - Comparación de ventas mensuales frente al promedio.
+
+## Módulo 5 — Consultas con JOINs
+
+Se realizaron consultas para:
+
+- Crear una vista enriquecida de ventas con información de clientes, productos y categorías.
+- Identificar clientes sin ventas.
+- Identificar productos sin ventas.
+- Consolidar las ventas mediante `UNION ALL` y una clasificación por canal.
 
 ## Objetivo
 
