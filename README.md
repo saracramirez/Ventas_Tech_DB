@@ -71,3 +71,25 @@ Se construyó un pipeline ETL en Power BI a partir del archivo `Pipeline_ETL_Dat
 ## Objetivo
 
 Obtener información concreta de las ventas mediante SQL y Power BI para apoyar el análisis y la toma de decisiones comerciales.
+
+## Checkpoint 2 — Modelo analítico y medidas DAX
+
+Se construyó el modelo analítico de RetailPro en Power BI a partir del pipeline ETL desarrollado en el checkpoint anterior.
+
+### Desarrollo realizado
+
+- Construcción del modelo en estrella.
+- Creación y configuración de relaciones 1:N entre las dimensiones y la tabla de hechos.
+- Creación de la tabla calendario `Dim_Fechas`.
+- Creación de la tabla `_Medidas`.
+- Creación de medidas DAX para:
+  - Total de ventas.
+  - Ventas Online.
+  - Ventas YTD.
+  - Ventas del año anterior (LY).
+  - Crecimiento anual.
+- Creación de la página `Validación` con una matriz para comprobar el funcionamiento de las medidas.
+
+### Archivo
+
+- `Ramirez_Sara_Checkpoint2.pbix` — modelo analítico, tabla calendario, medidas DAX y página de validación.
